@@ -1,0 +1,114 @@
+body {
+  background-image: linear-gradient(#16222A,#3A6073);
+  height: 100vh;
+  /* background-color: brown; */
+}
+
+.main-container {
+  width: 30em;
+  height: 30em;
+  margin-left: 28em;
+  margin-top: 5em;
+  border-radius: 10px;
+
+  /* background-image: linear-gradient(#16222A,#3A6073); */
+  /* background-image: linear-gradient(#000000,#434343); */
+}
+
+.search-bar {
+  width: 20em;
+  padding: 20px;
+  margin-top: 2em;
+  border-radius: 30px;
+  font-size: larger;
+  border: none;
+}
+
+.app-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-heading {
+  margin-top: 3em;
+  color: #d9d9d9;
+}
+
+.weather-details {
+  margin-top: 5em;
+  color: #d9d9d9;
+}
+
+.city-temperature {
+  font-size: 20px;
+}
+
+.city-temp {
+  font-size: 30px;
+}
+
+.city {
+  font-size: 15px;
+}
+
+
+/* tablets */
+
+@media (max-width: 800px ) {
+    body {
+      background-image: linear-gradient(#16222A,#3A6073);
+    }
+
+    .main-container{
+        width: 25em; 
+        height: 20em; 
+        margin-left: 3em;
+        margin-top: 5em;
+        border-radius: 10px;
+    
+        
+    
+    }
+
+    .search-bar{
+        width:18em;
+        padding: 15px;
+        margin-top: 2em;
+        border-radius: 30px;
+        font-size: larger;
+        border: none;
+    }
+}
+
+/* mobile-phones */
+
+@media (max-width: 400px) {
+  body {
+    background-image: linear-gradient(#16222A,#3A6073);
+  }
+
+  .app-heading {
+    max-width: fit-content;
+    margin-top: 3em;
+    font-size: xx-small;
+    color: cadetblue;
+    margin-left: 7em;
+  }
+
+  .main-container {
+    max-width: 20em;
+    margin-left: 1em;
+    height: 20em;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+
+  .search-bar {
+    max-width: 18em;
+    padding: 14px;
+    margin-top: 2em;
+    border-radius: 30px;
+    font-size: medium;
+    border: none;
+    text-align: center;
+  }
+}
