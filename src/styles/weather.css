@@ -61,12 +61,10 @@ body {
     .main-container{
         width: 25em; 
         height: 20em; 
-        margin-left: 3em;
+        margin-left: 12em;
         margin-top: 5em;
         border-radius: 10px;
-    
-        
-    
+
     }
 
     .search-bar{
